@@ -63,7 +63,7 @@ sayHi();
 - C: `ReferenceError` and `21`
 - D: `undefined` and `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -93,7 +93,7 @@ for (let i = 0; i < 3; i++) {
 - B: `0 1 2` and `3 3 3`
 - C: `3 3 3` and `0 1 2`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -127,7 +127,7 @@ console.log(shape.perimeter());
 - C: `20` and `63`
 - D: `NaN` and `63`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -154,7 +154,7 @@ There is no value `radius` on that object, which returns `NaN`.
 - B: `false` and `NaN`
 - C: `false` and `false`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -186,7 +186,7 @@ const mouse = {
 - C: `mouse[bird["size"]]` is not valid
 - D: All of them are valid
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -221,7 +221,7 @@ console.log(d.greeting);
 - D: `ReferenceError`
 - E: `TypeError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -256,7 +256,7 @@ console.log(b === c);
 - C: `true` `false` `false`
 - D: `false` `true` `true`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -295,7 +295,7 @@ console.log(freddie.colorChange('orange'));
 - C: `green`
 - D: `TypeError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -319,7 +319,7 @@ console.log(greetign);
 - B: `ReferenceError: greetign is not defined`
 - C: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -348,7 +348,7 @@ bark.animal = 'dog';
 - C: `"Woof"` gets logged.
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -383,12 +383,12 @@ console.log(member.getFullName());
 - C: `Lydia Hallie`
 - D: `undefined` `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
 
-In JavaScript, functions are objects, and therefore, the method `getFullName` gets added to the constructor function object itself. For that reason, we can call `Person.getFullName()`, but `member.getFullName` throws a `TypeError`. 
+In JavaScript, functions are objects, and therefore, the method `getFullName` gets added to the constructor function object itself. For that reason, we can call `Person.getFullName()`, but `member.getFullName` throws a `TypeError`.
 
 If you want a method to be available to all object instances, you have to add it to the prototype property:
 
@@ -423,7 +423,7 @@ console.log(sarah);
 - C: `Person {firstName: "Lydia", lastName: "Hallie"}` and `{}`
 - D: `Person {firstName: "Lydia", lastName: "Hallie"}` and `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -444,7 +444,7 @@ We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smit
 - C: Target > Bubbling > Capturing
 - D: Capturing > Target > Bubbling
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -463,7 +463,7 @@ During the **capturing** phase, the event goes through the ancestor elements dow
 - A: true
 - B: false
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -490,7 +490,7 @@ sum(1, '2');
 - C: `"12"`
 - D: `3`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -518,7 +518,7 @@ console.log(number);
 - C: `0` `2` `2`
 - D: `0` `1` `2`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -559,7 +559,7 @@ getPersonInfo`${person} is ${age} years old`;
 - B: `["", " is ", " years old"]` `"Lydia"` `21`
 - C: `"Lydia"` `["", " is ", " years old"]` `21`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -591,7 +591,7 @@ checkAge({ age: 18 });
 - B: `You are still an adult.`
 - C: `Hmm.. You don't have an age I guess`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -622,7 +622,7 @@ getAge(21);
 - C: `"object"`
 - D: `"NaN"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -651,7 +651,7 @@ getAge();
 - C: `ReferenceError`
 - D: `TypeError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -674,7 +674,7 @@ const sum = eval('10*10+5');
 - C: `TypeError`
 - D: `"10*10+5"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -697,7 +697,7 @@ sessionStorage.setItem('cool_secret', 123);
 - C: When the user closes the entire browser, not only the tab.
 - D: When the user shuts off their computer.
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -725,7 +725,7 @@ console.log(num);
 - C: `SyntaxError`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -756,7 +756,7 @@ set.has(1);
 - C: `true` `true` `false` `true`
 - D: `true` `true` `true` `true`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -782,7 +782,7 @@ console.log(obj);
 - C: `{ a: "three", b: "two" }`
 - D: `SyntaxError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -800,7 +800,7 @@ If you have two keys with the same name, the key will be replaced. It will still
 - B: false
 - C: it depends
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -826,7 +826,7 @@ for (let i = 1; i < 5; i++) {
 - C: `1` `2` `4`
 - D: `1` `3` `4`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -855,7 +855,7 @@ console.log(name.giveLydiaPizza())
 - C: `SyntaxError`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -885,7 +885,7 @@ console.log(a[b]);
 - C: `undefined`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -918,7 +918,7 @@ baz();
 - C: `Second` `First` `Third`
 - D: `Second` `Third` `First`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -971,7 +971,7 @@ This is where an event loop starts to work. An **event loop** looks at the stack
 - C: `button`
 - D: An array of all nested elements.
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -998,7 +998,7 @@ The deepest nested element that caused the event is the target of the event. You
 - C: `p`
 - D: `div`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1028,7 +1028,7 @@ console.log(sayHi.bind(person, 21));
 - C: `Lydia is 21` `Lydia is 21`
 - D: `Lydia is 21` `function`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -1057,7 +1057,7 @@ console.log(typeof sayHi());
 - C: `"function"`
 - D: `"undefined"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1087,7 +1087,7 @@ undefined;
 - C: `0`, `''`, `new Boolean(false)`, `undefined`
 - D: All of them are falsy
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1121,7 +1121,7 @@ console.log(typeof typeof 1);
 - C: `"object"`
 - D: `"undefined"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1147,7 +1147,7 @@ console.log(numbers);
 - C: `[1, 2, 3, empty x 7, 11]`
 - D: `SyntaxError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -1184,7 +1184,7 @@ depending on where you run it (it's different for every browser, node, etc.)
 - C: `1` `1` `2`
 - D: `1` `undefined` `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1207,7 +1207,7 @@ Outside of the `catch` block, `x` is still `undefined`, and `y` is `2`. When we 
 - C: trick question! only objects
 - D: number or object
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1239,7 +1239,7 @@ What differentiates a primitive from an object is that primitives do not have an
 - C: `[1, 2, 0, 1, 2, 3]`
 - D: `[1, 2, 6]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -1266,7 +1266,7 @@ Then, `[1, 2, 0, 1]` is `acc` and `[2, 3]` is `cur`. We concatenate them, and ge
 - C: `false` `true` `true`
 - D: `true` `true` `false`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1293,7 +1293,7 @@ setInterval(() => console.log('Hi'), 1000);
 - C: the passed function
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1316,7 +1316,7 @@ It returns a unique id. This id can be used to clear that interval with the `cle
 - C: `[[], "Lydia"]`
 - D: `[["L", "y", "d", "i", "a"]]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1347,7 +1347,7 @@ console.log(gen.next().value);
 - C: `10, 20`
 - D: `0, 10 and 10, 20`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -1382,7 +1382,7 @@ Promise.race([firstPromise, secondPromise]).then(res => console.log(res));
 - C: `"two" "one"`
 - D: `"one" "two"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1409,7 +1409,7 @@ console.log(members);
 - C: `[{}]`
 - D: `[{ name: "Lydia" }]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -1451,7 +1451,7 @@ for (const item in person) {
 - C: `"Lydia", 21`
 - D: `["name", "Lydia"], ["age", 21]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1474,7 +1474,7 @@ console.log(3 + 4 + '5');
 - C: `12`
 - D: `"12"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1501,7 +1501,7 @@ const num = parseInt('7*6', 10);
 - C: `7`
 - D: `NaN`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -1529,7 +1529,7 @@ Only the first numbers in the string is returned. Based on the _radix_ (the seco
 - C: `[undefined, undefined, undefined]`
 - D: `[ 3 x empty ]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -1564,7 +1564,7 @@ console.log(person, birthYear);
 - C: `{ name: "Lydia" }, "1998"`
 - D: `{ name: "Sarah" }, "1997"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1604,7 +1604,7 @@ sayHi();
 - C: `SyntaxError: can only throw Error objects`
 - D: `Oh no an error: Hello world!`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -1635,7 +1635,7 @@ console.log(myCar.make);
 - C: `ReferenceError`
 - D: `TypeError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1663,7 +1663,7 @@ console.log(typeof y);
 - C: `"object", "number"`
 - D: `"number", "undefined"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1713,7 +1713,7 @@ pet.bark();
 - C: `"Woof I am Mara"`, `undefined`
 - D: `TypeError`, `TypeError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1740,7 +1740,7 @@ console.log(set);
 - C: `{1, 1, 2, 3, 4}`
 - D: `{1, 2, 3, 4}`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -1776,7 +1776,7 @@ console.log(myCounter);
 - C: `Error`
 - D: `NaN`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -1805,7 +1805,7 @@ console.log(delete age);
 - C: `true`, `true`
 - D: `undefined`, `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1833,7 +1833,7 @@ console.log(y);
 - C: `1`
 - D: `[1]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -1875,7 +1875,7 @@ console.log(admin);
 - C: `{ admin: true, user: ["Lydia", 21] }`
 - D: `{ admin: true }`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1903,7 +1903,7 @@ console.log(Object.keys(person));
 - C: `{ name: "Lydia"}`, `["name", "age"]`
 - D: `{ name: "Lydia"}`, `["age"]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -1935,7 +1935,7 @@ console.log(data);
 - C: `"["level", "health"]"`
 - D: `"{"username": "lydiahallie", "level":19, "health":90}"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -1971,7 +1971,7 @@ console.log(num2);
 - C: `11`, `11`
 - D: `11`, `12`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2005,7 +2005,7 @@ multiply(value);
 - C: `20`, `20`, `20`, `40`
 - D: `NaN`, `NaN`, `20`, `40`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2034,7 +2034,7 @@ The fourth time, we pass the `value` object again. `x.number` was previously mod
 - C: `1` `undefined` and `2` `undefined` and `3` `undefined` and `4` `undefined`
 - D: `1` `2` and `undefined` `3` and `undefined` `4`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -2053,7 +2053,7 @@ On the fourth call, we again don't return from the callback function. The accumu
 
 </p>
 </details>
-  
+
 ---
 
 ###### 66. With which constructor can we successfully extend the `Dog` class?
@@ -2094,7 +2094,7 @@ class Labrador extends Dog {
 - C: 3
 - D: 4
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -2128,7 +2128,7 @@ export const sum = (a, b) => a + b;
 - C: `running sum.js`, `3`, `running index.js`
 - D: `running index.js`, `undefined`, `running sum.js`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -2155,7 +2155,7 @@ console.log(Symbol('foo') === Symbol('foo'));
 - C: `true`, `false`, `true`
 - D: `true`, `true`, `true`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2180,7 +2180,7 @@ console.log(name.padStart(2));
 - C: `" Lydia Hallie"`, `"Lydia Hallie"` (`"[1x whitespace]Lydia Hallie"`, `"Lydia Hallie"`)
 - D: `"Lydia Hallie"`, `"Lyd"`,
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2205,7 +2205,7 @@ console.log('🥑' + '💻');
 - C: A string containing their code points
 - D: Error
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2238,7 +2238,7 @@ console.log(/* 2 */); // JavaScript loves you back ❤️
 - C: `game.next().value` and `game.next("Yes").value`
 - D: `game.next.value()` and `game.next.value("Yes")`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2265,7 +2265,7 @@ console.log(String.raw`Hello\nworld`);
 - C: `Hello\nworld`
 - D: `Hello\n` <br /> &nbsp; &nbsp; &nbsp;`world`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2305,7 +2305,7 @@ console.log(data);
 - C: `Promise {<pending>}`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2339,7 +2339,7 @@ console.log(result);
 - C: `true`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -2371,7 +2371,7 @@ console.log(shape);
 - C: `{ x: 100 }`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -2400,7 +2400,7 @@ console.log(name);
 - C: `undefined`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2409,7 +2409,7 @@ When we unpack the property `name` from the object on the right-hand side, we as
 
 With `{ name: myName }`, we tell JavaScript that we want to create a new variable called `myName` with the value of the `name` property on the right-hand side.
 
-Since we try to log `name`, a variable that is not defined, `undefined` is returned on the left side assignment. Later, the value of `Lydia` is stored through the destructuring  assignment. 
+Since we try to log `name`, a variable that is not defined, `undefined` is returned on the left side assignment. Later, the value of `Lydia` is stored through the destructuring  assignment.
 
 </p>
 </details>
@@ -2427,7 +2427,7 @@ function sum(a, b) {
 - A: Yes
 - B: No
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2468,7 +2468,7 @@ console.log(addFunction(5 * 2));
 - C: `Calculated! 20` `From cache! 20` `From cache! 20`
 - D: `Calculated! 20` `From cache! 20` `Error`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2507,7 +2507,7 @@ for (let item of myLifeSummedUp) {
 - C: `"☕"` `"💻"` `"🍷"` `"🍫"` and `0` `1` `2` `3`
 - D: `0` `1` `2` `3` and `{0: "☕", 1: "💻", 2: "🍷", 3: "🍫"}`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2537,7 +2537,7 @@ console.log(list);
 - C: `[3, 2, 0.5]`
 - D: `[1, 1, 1]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2566,7 +2566,7 @@ console.log(sayHi());
 - C: `Hi there, null`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -2609,7 +2609,7 @@ setTimeout(() => {
 - C: `"😍"` and `"😎"`
 - D: `"😎"` and `"😎"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -2642,7 +2642,7 @@ console.log(person);
 - C: `{ name: "Lydia", age: 21, city: undefined }`
 - D: `"Amsterdam"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2681,7 +2681,7 @@ console.log(checkAge(21));
 - C: `ReferenceError`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2706,7 +2706,7 @@ fetch('https://www.website.com/api/user/1')
 - C: The result of the callback in the previous `.then()`.
 - D: It would always be undefined.
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2731,7 +2731,7 @@ function getName(name) {
 - C: `new Boolean(name)`
 - D: `name.length`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2760,7 +2760,7 @@ console.log('I want pizza'[0]);
 - C: `SyntaxError`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -2789,7 +2789,7 @@ sum(10);
 - C: `ReferenceError`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -2821,7 +2821,7 @@ console.log(data);
 - C: `{ default: "Hello world", name: "Lydia" }`
 - D: Global object of `module.js`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2853,7 +2853,7 @@ console.log(typeof member);
 - C: `"object"`
 - D: `"string"`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -2886,7 +2886,7 @@ console.log(newList.push(5));
 - C: `[1, 2, 3, 4]`
 - D: `Error`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -2919,7 +2919,7 @@ console.log(giveLydiaChocolate.prototype);
 - C: `{ constructor: ...}` `{}`
 - D: `{ constructor: ...}` `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -2949,7 +2949,7 @@ for (const [x, y] of Object.entries(person)) {
 - C: `["name", "age"]` and `undefined`
 - D: `Error`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -2983,7 +2983,7 @@ getItems(["banana", "apple"], "pear", "orange")
 - C: `["banana", "apple", ["pear"], "orange"]`
 - D: `SyntaxError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -3024,7 +3024,7 @@ console.log(nums(1, 2));
 - C: `undefined` and `undefined`
 - D: `SyntaxError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -3069,7 +3069,7 @@ console.log(member.name);
 - C: `Error: cannot redeclare Person`
 - D: `SyntaxError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -3097,7 +3097,7 @@ console.log(Object.keys(info));
 - C: `{ a: "b" }` and `["a"]`
 - D: `{Symbol('a'): 'b'}` and `[]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -3129,7 +3129,7 @@ console.log(getUser(user))
 - C: `[1, 2, 3, 4]` and `{ name: "Lydia", age: 21 }`
 - D: `Error` and `{ name: "Lydia", age: 21 }`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -3140,7 +3140,7 @@ The `getList` function receives an array as its argument. Between the parenthese
 
 With the rest parameter `...y`, we put all "remaining" arguments in an array. The remaining arguments are `2`, `3` and `4` in this case. The value of `y` is an array, containing all the rest parameters. The value of `x` is equal to `1` in this case, so when we log `[x, y]`, `[1, [2, 3, 4]]` gets logged.
 
-The `getUser` function receives an object. With arrow functions, we don't _have_ to write curly brackets if we just return one value. However, if you want to instantly return an _object_ from an arrow function, you have to write it between parentheses, otherwise everything between the two braces will be interpreted as a block statement. In this case the code between the braces is not a valid JavaScript code, so a `SyntaxError` gets thrown. 
+The `getUser` function receives an object. With arrow functions, we don't _have_ to write curly brackets if we just return one value. However, if you want to instantly return an _object_ from an arrow function, you have to write it between parentheses, otherwise everything between the two braces will be interpreted as a block statement. In this case the code between the braces is not a valid JavaScript code, so a `SyntaxError` gets thrown.
 
 The following function would have returned an object:
 
@@ -3164,7 +3164,7 @@ console.log(name());
 - C: `TypeError`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -3195,7 +3195,7 @@ You should${'' && `n't`} see a therapist after so much JavaScript lol`;
 - C: `possible! You shouldn't see a therapist after so much JavaScript lol`
 - D: `Impossible! You shouldn't see a therapist after so much JavaScript lol`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -3224,7 +3224,7 @@ console.log(one, two, three);
 - C: `{}` `""` `[]`
 - D: `null` `null` `true`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -3266,7 +3266,7 @@ secondFunction();
 - C: `I have resolved!`, `second` and `second`, `I have resolved!`
 - D: `second`, `I have resolved!` and `I have resolved!`, `second`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -3305,7 +3305,7 @@ for (let item of set) {
 - C: `3`, `Lydia2`, `[object Object]2`
 - D: `"12"`, `Lydia2`, `[object Object]2`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -3334,7 +3334,7 @@ Promise.resolve(5);
 - C: `Promise {<fulfilled>: 5}`
 - D: `Error`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -3369,7 +3369,7 @@ compareMembers(person);
 - C: `ReferenceError`
 - D: `SyntaxError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -3408,7 +3408,7 @@ console.log(colorConfig.colors[1]);
 - C: `undefined`
 - D: `TypeError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -3433,7 +3433,7 @@ console.log('❤️' === '❤️');
 - A: `true`
 - B: `false`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -3463,7 +3463,7 @@ emojis.splice(1, 2, '✨');
 - C: `map` `slice` `splice`
 - D: `splice`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -3493,7 +3493,7 @@ console.log(food);
 - C: `['🍝', '🍕', '🍫', '🥑', '🍔']`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -3520,7 +3520,7 @@ JSON.parse();
 - C: Parses any JavaScript value to JSON
 - D: Parses JSON to a JavaScript object only
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -3564,7 +3564,7 @@ getName();
 - C: `undefined`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -3613,7 +3613,7 @@ console.log(two.next().value);
 - C: `['a', 'b', 'c']` and `a`
 - D: `a` and `['a', 'b', 'c']`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -3652,7 +3652,7 @@ console.log(`${(x => x)('I love')} to program`);
 - C: `${(x => x)('I love') to program`
 - D: `TypeError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -3681,14 +3681,14 @@ config = null;
 - C: The `setInterval` callback will still be called every second
 - D: We never invoked `config.alert()`, config is `null`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
 
-Normally when we set objects equal to `null`, those objects get _garbage collected_ as there is no reference anymore to that object. However, since the callback function within `setInterval` is an arrow function (thus bound to the `config` object), the callback function still holds a reference to the `config` object. 
-As long as there is a reference, the object won't get garbage collected. 
-Since this is an interval, setting `config` to `null` or `delete`-ing `config.alert` won't garbage-collect the interval, so the interval will still be called. 
+Normally when we set objects equal to `null`, those objects get _garbage collected_ as there is no reference anymore to that object. However, since the callback function within `setInterval` is an arrow function (thus bound to the `config` object), the callback function still holds a reference to the `config` object.
+As long as there is a reference, the object won't get garbage collected.
+Since this is an interval, setting `config` to `null` or `delete`-ing `config.alert` won't garbage-collect the interval, so the interval will still be called.
 It should be cleared with `clearInterval(config.alert)` to remove it from memory.
 Since it was not cleared, the `setInterval` callback function will still get invoked every 1000ms (1s).
 
@@ -3718,7 +3718,7 @@ myMap.get(() => 'greeting');
 - C: 2 and 3
 - D: All of them
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -3758,7 +3758,7 @@ console.log(person);
 - C: `{name: "Lydia", age: 22}`
 - D: `{name: "Lydia", age: 23}`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -3787,7 +3787,7 @@ function sumValues(x, y, z) {
 - C: `sumValues(...[1, 2, 3])`
 - D: `sumValues([1, 2, 3])`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -3813,7 +3813,7 @@ console.log(list[(num += 1)]);
 - C: `SyntaxError`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -3851,7 +3851,7 @@ console.log(member.getLastName?.());
 - C: `Mara` `null` `Lydia Hallie` `null`
 - D: `null` `ReferenceError` `null` `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -3885,7 +3885,7 @@ if (groceries.indexOf('banana')) {
 - C: `undefined`
 - D: `1`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -3915,7 +3915,7 @@ console.log(config.language);
 - C: `[]`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -3941,7 +3941,7 @@ console.log(!typeof name === 'string');
 - C: `false` `false`
 - D: `true` `true`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -3971,7 +3971,7 @@ add(4)(5)(6);
 - C: `4` `function` `function`
 - D: `undefined` `undefined` `6`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -4005,7 +4005,7 @@ async function* range(start, end) {
 - C: `1` `2` `3`
 - D: `undefined` `undefined` `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4032,7 +4032,7 @@ myFunc(1, 2, 3);
 - C: `{ 1: undefined }` `undefined` `undefined`
 - D: `undefined` `undefined` `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -4069,7 +4069,7 @@ console.log(getFine(130, 300))
 - C: The driver drove undefined and has to pay undefined
 - D: The driver drove 130.00 and has to pay 300.00
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -4095,7 +4095,7 @@ console.log(spookyItems);
 - C: `["👻", "🎃", "🕸", { item: "💀" }]`
 - D: `["👻", "🎃", "🕸", "[object Object]"]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -4125,7 +4125,7 @@ console.log(isNaN(age));
 - C: `false` `false` `true` `false`
 - D: `false` `true` `false` `true`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4157,7 +4157,7 @@ getInfo();
 - C: `undefined`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -4190,7 +4190,7 @@ const myPromise = Promise.resolve('Woah some cool data');
 - C: `Woah some cool data` `Oh finally!`
 - D: `Oops didn't work` `Oh finally!`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4215,7 +4215,7 @@ console.log(emojis.flat(1));
 - C: `['🥑', ['✨', '✨', '🍕', '🍕']]`
 - D: `['🥑', '✨', '✨', '🍕', '🍕']`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -4255,7 +4255,7 @@ console.log(counterOne.count);
 - C: `2`
 - D: `3`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -4302,7 +4302,7 @@ funcTwo();
 - C: `Last line 1! Promise 2! Last line 2! Promise 1! Timeout 1! Timeout 2!`
 - D: `Timeout 1! Promise 1! Last line 1! Promise 2! Timeout 2! Last line 2!`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4311,7 +4311,7 @@ First, we invoke `funcOne`. On the first line of `funcOne`, we call the _asynchr
 
 Then we call the `myPromise` promise, which is an _asynchronous_ operation.
 
-Both the promise and the timeout are asynchronous operations, the function keeps on running while it's busy completing the promise and handling the `setTimeout` callback. This means that `Last line 1!` gets logged first, since this is not an asynchonous operation. 
+Both the promise and the timeout are asynchronous operations, the function keeps on running while it's busy completing the promise and handling the `setTimeout` callback. This means that `Last line 1!` gets logged first, since this is not an asynchonous operation.
 
 Since the callstack is not empty yet, the `setTimeout` function and promise in `funcOne` cannot get added to the callstack yet.
 
@@ -4343,7 +4343,7 @@ import * as sum from './sum';
 - C: `sum.default(4)`
 - D: Default aren't imported with `*`, only named exports
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4403,7 +4403,7 @@ person.name;
 - C: `Added a new property!` `Accessed a property!`
 - D: Nothing gets logged
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4434,7 +4434,7 @@ Object.seal(person);
 - C: `delete person.name`
 - D: `Object.assign(person, { age: 21 })`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -4466,7 +4466,7 @@ Object.freeze(person);
 - C: `person.address.street = "101 Main St"`
 - D: `person.pet = { name: "Mara" }`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4498,7 +4498,7 @@ myFunc(3);
 - C: `2` `Error` and `3` `6`
 - D: `2` `4` and `3` `Error`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -4538,7 +4538,7 @@ console.log(counter.#number)
 - C: `undefined`
 - D: `SyntaxError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -4580,7 +4580,7 @@ obj.next(); // { value: "Lisa", done: false }
 - C: `return getMembers(teams[i].members)`
 - D: `return yield getMembers(teams[i].members)`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -4619,7 +4619,7 @@ console.log(person.hobbies);
 - C: `["coding", "dancing", "baking"]`
 - D: `["coding", "running", "dancing", "baking"]`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4663,7 +4663,7 @@ const pet = new Flamingo();
 - C: `I'm a bird. 🦢` `I'm pink. 🌸`
 - D: Nothing, we didn't call any method
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -4691,7 +4691,7 @@ const emojis = ['🎄', '🎅🏼', '🎁', '⭐'];
 - C: 3 and 4
 - D: 3
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -4719,7 +4719,7 @@ const person = {
 - C: `*[Symbol.iterator]() { yield* Object.values(this) }`
 - D: `*[Symbol.iterator]() { for (let x in this) yield this }`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4749,7 +4749,7 @@ console.log(count)
 - C: 3
 - D: 4
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4778,16 +4778,16 @@ getFruit([['🍍'], ['🍊', '🍌']])
 - C: `[]`, `[]`, 🍌
 - D: `undefined`, `undefined`, 🍌
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
 
-The `?` allows us to optionally access deeper nested properties within objects. We're trying to log the item on index `1` within the subarray that's on index `1` of the `fruits` array. If the subarray on index `1` in the `fruits` array doesn't exist, it'll simply return `undefined`. If the subarray on index `1` in the `fruits` array exists, but this subarray doesn't have an item on its `1` index, it'll also return `undefined`. 
+The `?` allows us to optionally access deeper nested properties within objects. We're trying to log the item on index `1` within the subarray that's on index `1` of the `fruits` array. If the subarray on index `1` in the `fruits` array doesn't exist, it'll simply return `undefined`. If the subarray on index `1` in the `fruits` array exists, but this subarray doesn't have an item on its `1` index, it'll also return `undefined`.
 
 First, we're trying to log the second item in the `['🍍']` subarray of `[['🍊', '🍌'], ['🍍']]`. This subarray only contains one item, which means there is no item on index `1`, and returns `undefined`.
 
-Then, we're invoking the `getFruits` function without passing a value as an argument, which means that `fruits` has a value of `undefined` by default. Since we're conditionally chaining the item on index `1` of`fruits`, it returns `undefined` since this item on index `1` does not exist. 
+Then, we're invoking the `getFruits` function without passing a value as an argument, which means that `fruits` has a value of `undefined` by default. Since we're conditionally chaining the item on index `1` of`fruits`, it returns `undefined` since this item on index `1` does not exist.
 
 Lastly, we're trying to log the second item in the `['🍊', '🍌']` subarray of `['🍍'], ['🍊', '🍌']`. The item on index `1` within this subarray is `🍌`, which gets logged.
 
@@ -4801,7 +4801,7 @@ Lastly, we're trying to log the second item in the `['🍊', '🍌']` subarray o
 ```javascript
 class Calc {
 	constructor() {
-		this.count = 0 
+		this.count = 0
 	}
 
 	increase() {
@@ -4820,7 +4820,7 @@ console.log(calc.count)
 - C: `undefined`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
@@ -4862,7 +4862,7 @@ console.log(updatedUser === user)
 - C: `TypeError`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
@@ -4891,7 +4891,7 @@ console.log(fruit)
 - C: `['🍇', '🍊', '🍎']`
 - D: `['🍇', '🍌', '🍊', '🍎']`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -4923,16 +4923,16 @@ console.log(animals[dog])
 - C: `undefined`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
 
-Object keys are converted to strings. 
+Object keys are converted to strings.
 
 Since the value of  `dog` is an object,  `animals[dog]` actually means that we’re creating a new property called `"object Object"` equal to the new object. `animals["object Object"]` is now equal to `{ emoji: "🐶", name: "Mara"}`.
 
-`cat` is also an object, which means that `animals[cat]` actually means that we’re overwriting the value of  `animals["object Object"]` with the new cat properties. 
+`cat` is also an object, which means that `animals[cat]` actually means that we’re overwriting the value of  `animals["object Object"]` with the new cat properties.
 
 Logging `animals[dog]`, or actually `animals["object Object"]` since converting the `dog` object to a string results `"object Object"`, returns the `{ emoji: "🐈", name: "Sara" }`.
 
@@ -4960,12 +4960,12 @@ console.log(user.email)
 - C: `undefined`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: A
 
-The `updateEmail` function is an arrow function, and is not bound to the `user` object. This means that the `this` keyword is not referring to the `user` object, but refers to  the global scope in this case. The value of `email` within the `user` object does not get updated. When logging the value of `user.email`, the original value of `my@email.com` gets returned. 
+The `updateEmail` function is an arrow function, and is not bound to the `user` object. This means that the `this` keyword is not referring to the `user` object, but refers to  the global scope in this case. The value of `email` within the `user` object does not get updated. When logging the value of `user.email`, the original value of `my@email.com` gets returned.
 
 </p>
 </details>
@@ -4996,7 +4996,7 @@ runPromises()
 - C: `[['First', 'Second']]`
 - D: `'Third'`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: D
@@ -5008,7 +5008,7 @@ The `Promise.all` method runs the passed promises in parallel. If one promise fa
 
 ---
 
-###### 153. What should the value of `method` be to log `{ name: "Lydia", age: 22 }`? 
+###### 153. What should the value of `method` be to log `{ name: "Lydia", age: 22 }`?
 
 ```javascript
 const keys = ["name", "age"]
@@ -5025,12 +5025,12 @@ Object[method](keys.map((_, i) => {
 - C: `fromEntries`
 - D: `forEach`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
 
-The `fromEntries` method turns a 2d array into an object. The first element in each subarray will be the key, and the second element in each subarray will be the value. In this case, we’re mapping over the `keys` array, which returns an array which first element is the item on the key array on the current index, and the second element is the item of the values array on the current index. 
+The `fromEntries` method turns a 2d array into an object. The first element in each subarray will be the key, and the second element in each subarray will be the value. In this case, we’re mapping over the `keys` array, which returns an array which first element is the item on the key array on the current index, and the second element is the item of the values array on the current index.
 
 This creates an array of subarrays containing the correct keys and values, which results in `{ name: "Lydia", age: 22 }`
 
@@ -5061,7 +5061,7 @@ console.log(member)
 - C: `{ email: "my@email.com", address: {} }`
 - D: `{ email: "my@email.com", address: undefined }`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: C
@@ -5091,7 +5091,7 @@ if (!typeof randomValue === "string") {
 - C: `TypeError`
 - D: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<p><b><i>Answer</b></i></p>
 <p>
 
 #### Answer: B
